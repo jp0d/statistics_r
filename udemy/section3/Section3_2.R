@@ -7,7 +7,17 @@
 ## stringr: for playing with strings 
 ## ggplot : for data visualizations 
 
+install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("purrr")
+install.packages("flexdashboard")
+install.packages("sparklyr")
+install.packages("tidymodels")
+install.packages("reticulate")
 install.packages("lubridate")
+install.packages("forecast")
+install.packages("inventorize")
 
 library(readr)
 

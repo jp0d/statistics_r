@@ -215,46 +215,31 @@ pre code {
 
 
 <!-- rnb-text-begin -->
+<p>Basic packages list for new R installations</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubmFtZV9jbGFzc3NbYygxLDUpXVxuXG5gYGAifQ== -->
-<pre class="r"><code>name_classs[c(1,5)]
-</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiTWFya1wiIFwiTGVvXCIgXG4ifQ== -->
-<pre><code>[1] &quot;Mark&quot; &quot;Leo&quot; </code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMjIyBjcmVhdGluZyBhIGxpc3RcblxuY2xhc3NfbGlzdDwtIGxpc3QoTWVtYmVyMT0gYyhcIk1hcmtcIiwxLjcpLFxuICAgICAgICAgICAgICAgICAgTWVtYmVyMj0gYyhcIkplZmZlcnlcIiwxLjc1KSxcbiAgICAgICAgICAgICAgICAgIE1lbWJlcjM9YyhcIkxpbmRhXCIsMS43OCksXG4gICAgICAgICAgICAgICAgICBNZW1iZXI0PSBjKFwiUm9zc1wiLDEuOCksXG4gICAgICAgICAgICAgICAgICBNZWVtYmVyNT1jKFwiTGVvXCIsMS45KSlcblxuIyMjR2V0dGluZyBhbiBpdGVtIGluc2lkZSBteSBsaXN0XG5jbGFzc19saXN0JE1lbWJlcjFcblxuIyMjR2V0dGluZyB0aGUgaGVpZ2h0IG9mIE1hcmtcblxuY2xhc3NfbGlzdFtbMV1dWzJdXG5cbiMjIyBHZXR0aW5nIHRoZSBuYW1lIG9mIE1lbWJlciAxXG5jbGFzc19saXN0W1sxXV1bMV1cblxuY2xhc3NfbGlzdFxuXG5gYGAifQ== -->
-<pre class="r"><code>#### creating a list
-
-class_list&lt;- list(Member1= c(&quot;Mark&quot;,1.7),
-                  Member2= c(&quot;Jeffery&quot;,1.75),
-                  Member3=c(&quot;Linda&quot;,1.78),
-                  Member4= c(&quot;Ross&quot;,1.8),
-                  Meember5=c(&quot;Leo&quot;,1.9))
-
-###Getting an item inside my list
-class_list$Member1
-
-###Getting the height of Mark
-
-class_list[[1]][2]
-
-### Getting the name of Member 1
-class_list[[1]][1]
-
-class_list
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW5zdGFsbC5wYWNrYWdlcyhcInRpZHl2ZXJzZVwiKVxuaW5zdGFsbC5wYWNrYWdlcyhcImRwbHlyXCIpXG5pbnN0YWxsLnBhY2thZ2VzKFwiZ2dwbG90MlwiKVxuaW5zdGFsbC5wYWNrYWdlcyhcInB1cnJyXCIpXG5pbnN0YWxsLnBhY2thZ2VzKFwiZmxleGRhc2hib2FyZFwiKVxuaW5zdGFsbC5wYWNrYWdlcyhcInNwYXJrbHlyXCIpXG5pbnN0YWxsLnBhY2thZ2VzKFwidGlkeW1vZGVsc1wiKVxuaW5zdGFsbC5wYWNrYWdlcyhcInJldGljdWxhdGVcIilcbmluc3RhbGwucGFja2FnZXMoXCJsdWJyaWRhdGVcIilcbmluc3RhbGwucGFja2FnZXMoXCJmb3JlY2FzdFwiKVxuaW5zdGFsbC5wYWNrYWdlcyhcImludmVudG9yaXplXCIpXG5cbmBgYCJ9 -->
+<pre class="r"><code>install.packages(&quot;tidyverse&quot;)
+install.packages(&quot;dplyr&quot;)
+install.packages(&quot;ggplot2&quot;)
+install.packages(&quot;purrr&quot;)
+install.packages(&quot;flexdashboard&quot;)
+install.packages(&quot;sparklyr&quot;)
+install.packages(&quot;tidymodels&quot;)
+install.packages(&quot;reticulate&quot;)
+install.packages(&quot;lubridate&quot;)
+install.packages(&quot;forecast&quot;)
+install.packages(&quot;inventorize&quot;)
 </code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Cmd+Option+I</em>.</p>
+<p>When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the <em>Preview</em> button or press <em>Cmd+Shift+K</em> to preview the HTML file).</p>
+<p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCmBgYHtyfQojIyMjIGNyZWF0aW5nIGEgdmVjdG9yCmxlbmd0aF9jbGFzczwtIGMoMS43LDEuNzUsMS43OCwxLjgsMS45KQoKbGVuZ3RoX2NsYXNzCgpuYW1lX2NsYXNzczwtIGMoIk1hcmsiLCJKZWZmZXJ5IiwiTGluZGEiLCJSb3NzIiwiTGVvIikKCiNCcmluZ2luZyB0aGUgZmlyc3QgdHdvIGVsZW1lbnRzCm5hbWVfY2xhc3NzWzE6Ml0KCiMjQnJpbmdpbmcgdGhlIHNob3J0ZXN0IGFuZCB0aGUgdGFsbGVzdCBQZXJzb24KCm5hbWVfY2xhc3NzW2MoMSw1KV0KYGBgCgoKCmBgYHtyfQojIyMjIGNyZWF0aW5nIGEgbGlzdAoKY2xhc3NfbGlzdDwtIGxpc3QoTWVtYmVyMT0gYygiTWFyayIsMS43KSwKICAgICAgICAgICAgICAgICAgTWVtYmVyMj0gYygiSmVmZmVyeSIsMS43NSksCiAgICAgICAgICAgICAgICAgIE1lbWJlcjM9YygiTGluZGEiLDEuNzgpLAogICAgICAgICAgICAgICAgICBNZW1iZXI0PSBjKCJSb3NzIiwxLjgpLAogICAgICAgICAgICAgICAgICBNZWVtYmVyNT1jKCJMZW8iLDEuOSkpCgojIyNHZXR0aW5nIGFuIGl0ZW0gaW5zaWRlIG15IGxpc3QKY2xhc3NfbGlzdCRNZW1iZXIxCgojIyNHZXR0aW5nIHRoZSBoZWlnaHQgb2YgTWFyawoKY2xhc3NfbGlzdFtbMV1dWzJdCgojIyMgR2V0dGluZyB0aGUgbmFtZSBvZiBNZW1iZXIgMQpjbGFzc19saXN0W1sxXV1bMV0KCmNsYXNzX2xpc3QKCmBgYAoKCgoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKQmFzaWMgcGFja2FnZXMgbGlzdCBmb3IgbmV3IFIgaW5zdGFsbGF0aW9ucwoKYGBge3J9Cmluc3RhbGwucGFja2FnZXMoInRpZHl2ZXJzZSIpCmluc3RhbGwucGFja2FnZXMoImRwbHlyIikKaW5zdGFsbC5wYWNrYWdlcygiZ2dwbG90MiIpCmluc3RhbGwucGFja2FnZXMoInB1cnJyIikKaW5zdGFsbC5wYWNrYWdlcygiZmxleGRhc2hib2FyZCIpCmluc3RhbGwucGFja2FnZXMoInNwYXJrbHlyIikKaW5zdGFsbC5wYWNrYWdlcygidGlkeW1vZGVscyIpCmluc3RhbGwucGFja2FnZXMoInJldGljdWxhdGUiKQppbnN0YWxsLnBhY2thZ2VzKCJsdWJyaWRhdGUiKQppbnN0YWxsLnBhY2thZ2VzKCJmb3JlY2FzdCIpCmluc3RhbGwucGFja2FnZXMoImludmVudG9yaXplIikKCmBgYAoKQWRkIGEgbmV3IGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqSW5zZXJ0IENodW5rKiBidXR0b24gb24gdGhlIHRvb2xiYXIgb3IgYnkgcHJlc3NpbmcgKkNtZCtPcHRpb24rSSouCgpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkNtZCtTaGlmdCtLKiB0byBwcmV2aWV3IHRoZSBIVE1MIGZpbGUpLiAKClRoZSBwcmV2aWV3IHNob3dzIHlvdSBhIHJlbmRlcmVkIEhUTUwgY29weSBvZiB0aGUgY29udGVudHMgb2YgdGhlIGVkaXRvci4gQ29uc2VxdWVudGx5LCB1bmxpa2UgKktuaXQqLCAqUHJldmlldyogZG9lcyBub3QgcnVuIGFueSBSIGNvZGUgY2h1bmtzLiBJbnN0ZWFkLCB0aGUgb3V0cHV0IG9mIHRoZSBjaHVuayB3aGVuIGl0IHdhcyBsYXN0IHJ1biBpbiB0aGUgZWRpdG9yIGlzIGRpc3BsYXllZC4KCg==</div>
 
 
 
@@ -301,7 +286,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("Basics.Rmd");
+  window.initializeSourceEmbed("R_Packages.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>

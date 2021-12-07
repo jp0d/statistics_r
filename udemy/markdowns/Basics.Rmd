@@ -3,3 +3,48 @@ title: "R Notebook"
 output: html_notebook
 ---
 
+
+```{r}
+#### creating a vector
+length_class<- c(1.7,1.75,1.78,1.8,1.9)
+
+length_class
+
+name_classs<- c("Mark","Jeffery","Linda","Ross","Leo")
+
+#Bringing the first two elements
+name_classs[1:2]
+
+##Bringing the shortest and the tallest Person
+
+name_classs[c(1,5)]
+```
+
+
+
+```{r}
+#### creating a list
+
+class_list<- list(Member1= c("Mark",1.7),
+                  Member2= c("Jeffery",1.75),
+                  Member3=c("Linda",1.78),
+                  Member4= c("Ross",1.8),
+                  Meember5=c("Leo",1.9))
+
+###Getting an item inside my list
+class_list$Member1
+
+###Getting the height of Mark
+
+class_list[[1]][2]
+
+### Getting the name of Member 1
+class_list[[1]][1]
+
+class_list
+
+```
+
+
+
+
