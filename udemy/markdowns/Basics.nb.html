@@ -228,33 +228,57 @@ pre code {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMjIyBjcmVhdGluZyBhIGxpc3RcblxuY2xhc3NfbGlzdDwtIGxpc3QoTWVtYmVyMT0gYyhcIk1hcmtcIiwxLjcpLFxuICAgICAgICAgICAgICAgICAgTWVtYmVyMj0gYyhcIkplZmZlcnlcIiwxLjc1KSxcbiAgICAgICAgICAgICAgICAgIE1lbWJlcjM9YyhcIkxpbmRhXCIsMS43OCksXG4gICAgICAgICAgICAgICAgICBNZW1iZXI0PSBjKFwiUm9zc1wiLDEuOCksXG4gICAgICAgICAgICAgICAgICBNZWVtYmVyNT1jKFwiTGVvXCIsMS45KSlcblxuIyMjR2V0dGluZyBhbiBpdGVtIGluc2lkZSBteSBsaXN0XG5jbGFzc19saXN0JE1lbWJlcjFcblxuIyMjR2V0dGluZyB0aGUgaGVpZ2h0IG9mIE1hcmtcblxuY2xhc3NfbGlzdFtbMV1dWzJdXG5cbiMjIyBHZXR0aW5nIHRoZSBuYW1lIG9mIE1lbWJlciAxXG5jbGFzc19saXN0W1sxXV1bMV1cblxuY2xhc3NfbGlzdFxuXG5gYGAifQ== -->
-<pre class="r"><code>#### creating a list
-
-class_list&lt;- list(Member1= c(&quot;Mark&quot;,1.7),
-                  Member2= c(&quot;Jeffery&quot;,1.75),
-                  Member3=c(&quot;Linda&quot;,1.78),
-                  Member4= c(&quot;Ross&quot;,1.8),
-                  Meember5=c(&quot;Leo&quot;,1.9))
-
-###Getting an item inside my list
-class_list$Member1
-
-###Getting the height of Mark
-
-class_list[[1]][2]
-
-### Getting the name of Member 1
-class_list[[1]][1]
-
-class_list
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2xhc3NfbGlzdFxuXG5gYGAifQ== -->
+<pre class="r"><code>class_list
 </code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJE1lbWJlcjFcblsxXSBcIk1hcmtcIiBcIjEuN1wiIFxuXG4kTWVtYmVyMlxuWzFdIFwiSmVmZmVyeVwiIFwiMS43NVwiICAgXG5cbiRNZW1iZXIzXG5bMV0gXCJMaW5kYVwiIFwiMS43OFwiIFxuXG4kTWVtYmVyNFxuWzFdIFwiUm9zc1wiIFwiMS44XCIgXG5cbiRNZWVtYmVyNVxuWzFdIFwiTGVvXCIgXCIxLjlcIlxuIn0= -->
+<pre><code>$Member1
+[1] &quot;Mark&quot; &quot;1.7&quot; 
+
+$Member2
+[1] &quot;Jeffery&quot; &quot;1.75&quot;   
+
+$Member3
+[1] &quot;Linda&quot; &quot;1.78&quot; 
+
+$Member4
+[1] &quot;Ross&quot; &quot;1.8&quot; 
+
+$Meember5
+[1] &quot;Leo&quot; &quot;1.9&quot;</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaXJpczIgPCBpcmlzXG5cbmBgYCJ9 -->
+<pre class="r"><code>iris2 &lt; iris
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3I6IG9iamVjdCAnaXJpczInIG5vdCBmb3VuZFxuIn0= -->
+<pre><code>Error: object &#39;iris2&#39; not found</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<div id="vector-functions" class="section level2">
+<h2>Vector functions</h2>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudW5pcXVlKHgpXG5cbmBgYCJ9 -->
+<pre class="r"><code>unique(x)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiIFsxXSA1LjEgNC45IDQuNyA0LjYgNS4wIDUuNCA0LjQgNC44IDQuMyA1LjggNS43IDUuMiA1LjUgNC41IDUuMyA3LjAgNi40IDYuOSA2LjUgNi4zIDYuNiA1LjkgNi4wIDYuMSA1LjYgNi43IDYuMiA2LjggNy4xXG5bMzBdIDcuNiA3LjMgNy4yIDcuNyA3LjQgNy45XG4ifQ== -->
+<pre><code> [1] 5.1 4.9 4.7 4.6 5.0 5.4 4.4 4.8 4.3 5.8 5.7 5.2 5.5 4.5 5.3 7.0 6.4 6.9 6.5 6.3 6.6 5.9 6.0 6.1 5.6 6.7 6.2 6.8 7.1
+[30] 7.6 7.3 7.2 7.7 7.4 7.9</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+</div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCmBgYHtyfQojIyMjIGNyZWF0aW5nIGEgdmVjdG9yCmxlbmd0aF9jbGFzczwtIGMoMS43LDEuNzUsMS43OCwxLjgsMS45KQoKbGVuZ3RoX2NsYXNzCgpuYW1lX2NsYXNzczwtIGMoIk1hcmsiLCJKZWZmZXJ5IiwiTGluZGEiLCJSb3NzIiwiTGVvIikKCiNCcmluZ2luZyB0aGUgZmlyc3QgdHdvIGVsZW1lbnRzCm5hbWVfY2xhc3NzWzE6Ml0KCiMjQnJpbmdpbmcgdGhlIHNob3J0ZXN0IGFuZCB0aGUgdGFsbGVzdCBQZXJzb24KCm5hbWVfY2xhc3NzW2MoMSw1KV0KYGBgCgoKCmBgYHtyfQojIyMjIGNyZWF0aW5nIGEgbGlzdAoKY2xhc3NfbGlzdDwtIGxpc3QoTWVtYmVyMT0gYygiTWFyayIsMS43KSwKICAgICAgICAgICAgICAgICAgTWVtYmVyMj0gYygiSmVmZmVyeSIsMS43NSksCiAgICAgICAgICAgICAgICAgIE1lbWJlcjM9YygiTGluZGEiLDEuNzgpLAogICAgICAgICAgICAgICAgICBNZW1iZXI0PSBjKCJSb3NzIiwxLjgpLAogICAgICAgICAgICAgICAgICBNZWVtYmVyNT1jKCJMZW8iLDEuOSkpCgojIyNHZXR0aW5nIGFuIGl0ZW0gaW5zaWRlIG15IGxpc3QKY2xhc3NfbGlzdCRNZW1iZXIxCgojIyNHZXR0aW5nIHRoZSBoZWlnaHQgb2YgTWFyawoKY2xhc3NfbGlzdFtbMV1dWzJdCgojIyMgR2V0dGluZyB0aGUgbmFtZSBvZiBNZW1iZXIgMQpjbGFzc19saXN0W1sxXV1bMV0KCmNsYXNzX2xpc3QKCmBgYAoKCgoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCmBgYHtyfQojIyMjIGNyZWF0aW5nIGEgdmVjdG9yCmxlbmd0aF9jbGFzczwtIGMoMS43LDEuNzUsMS43OCwxLjgsMS45KQoKbGVuZ3RoX2NsYXNzCgpuYW1lX2NsYXNzczwtIGMoIk1hcmsiLCJKZWZmZXJ5IiwiTGluZGEiLCJSb3NzIiwiTGVvIikKCiNCcmluZ2luZyB0aGUgZmlyc3QgdHdvIGVsZW1lbnRzCm5hbWVfY2xhc3NzWzE6Ml0KCiMjQnJpbmdpbmcgdGhlIHNob3J0ZXN0IGFuZCB0aGUgdGFsbGVzdCBQZXJzb24KCm5hbWVfY2xhc3NzW2MoMSw1KV0KYGBgCgoKCmBgYHtyfQojIyMjIGNyZWF0aW5nIGEgbGlzdAoKY2xhc3NfbGlzdDwtIGxpc3QoTWVtYmVyMT0gYygiTWFyayIsMS43KSwKICAgICAgICAgICAgICAgICAgTWVtYmVyMj0gYygiSmVmZmVyeSIsMS43NSksCiAgICAgICAgICAgICAgICAgIE1lbWJlcjM9YygiTGluZGEiLDEuNzgpLAogICAgICAgICAgICAgICAgICBNZW1iZXI0PSBjKCJSb3NzIiwxLjgpLAogICAgICAgICAgICAgICAgICBNZWVtYmVyNT1jKCJMZW8iLDEuOSkpCgojIyNHZXR0aW5nIGFuIGl0ZW0gaW5zaWRlIG15IGxpc3QKY2xhc3NfbGlzdCRNZW1iZXIxCgojIyNHZXR0aW5nIHRoZSBoZWlnaHQgb2YgTWFyawoKY2xhc3NfbGlzdFtbMV1dWzJdCgojIyMgR2V0dGluZyB0aGUgbmFtZSBvZiBNZW1iZXIgMQpjbGFzc19saXN0W1sxXV1bMV0KCmNsYXNzX2xpc3QKCmBgYAoKCmBgYHtyfQpzdHIoaXJpcykKCmNsYXNzKGlyaXMpCgppcmlzMiA8LSBpcmlzCmBgYAoKCiMjIFZlY3RvciBmdW5jdGlvbnMKCmBgYHtyfQoKeCA8LSBjKGlyaXMyJFNlcGFsLkxlbmd0aCkKCmNsYXNzKHgpCgojIFJldHVybiB4IHNvcnRlZC4Kc29ydCh4KQoKIyBSZXR1cm4geCByZXZlcnNlZC4KcmV2KHgpCgojIFNlZSBjb3VudHMgb2YgdmFsdWVzLgp0YWJsZSh4KQoKIyBTZWUgdW5pcXVlIHZhbHVlcy4KdW5pcXVlKHgpCgoKYGBgCgoKCg==</div>
 
 
 

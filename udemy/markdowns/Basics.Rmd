@@ -46,5 +46,37 @@ class_list
 ```
 
 
+```{r}
+str(iris)
+
+class(iris)
+
+iris2 <- iris
+```
+
+
+## Vector functions
+
+```{r}
+
+x <- c(iris2$Sepal.Length)
+
+class(x)
+
+# Return x sorted.
+sort(x)
+
+# Return x reversed.
+rev(x)
+
+# See counts of values.
+table(x)
+
+# See unique values.
+unique(x)
+
+
+```
+
 
 
